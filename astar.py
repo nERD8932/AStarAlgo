@@ -14,7 +14,7 @@ class Maze:
 
 
 def import_maze():
-    file = open("maze4.txt", "r")
+    file = open("maze.txt", "r")
     maze_f = file.read()
     maze_f = maze_f.splitlines()
     m_height = len(maze_f)
